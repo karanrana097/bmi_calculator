@@ -12,7 +12,8 @@ class ResuableCard extends StatelessWidget {
           //color: Color(0XFF1D1E33),
           color: colour,
           borderRadius: BorderRadius.circular(10),
-        )
+        ),
+        child: cardChild,
     );
   }
 }

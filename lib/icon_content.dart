@@ -5,10 +5,11 @@ const labelTextStyle= TextStyle(
   color: Color(0xFF8D8E98),
 );
 
-class iconContent extends StatelessWidget {
-  iconContent({required this.icon,required this.label});
+class IconContent extends StatelessWidget {
   final IconData icon;
   final String label;
+  IconContent({required this.icon,required this.label});
+
 
 
   @override
@@ -18,6 +19,7 @@ class iconContent extends StatelessWidget {
       children: [
         Icon(
           icon,
+          color: Colors.white,
           size: 80,
         ),
         SizedBox(
